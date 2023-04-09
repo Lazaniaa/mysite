@@ -1,0 +1,632 @@
+@media only screen and (max-width: 993px) {
+    .header-nav-logo{
+        font-size: 38px;
+    }
+    .wrapper-header .header-nav-right{
+        width: 50%;
+    }
+    .wrapper-header .header-nav-download{
+        font-size: 20px;
+    }
+    .wrapper-header .header-content{
+        font-size: 38px;
+        padding-bottom: 20%;
+    }
+    .second-wrapper .second-wrapper-content-text{
+        font-size: 38px;
+    }
+    .second-wrapper .second-wrapper-grid h1{
+        font-size: 26px;
+    }
+    .second-wrapper .second-wrapper-grid p{
+        font-size: 14px;
+    }
+    .second-wrapper .card1-img{
+        height: 90%;
+    }
+     .second-wrapper .card2-img{
+        height: 90%;
+    }
+     .second-wrapper .card3-img{
+        height: 90%;
+    }
+     .second-wrapper .card4-img{
+        height: 90%;
+    }
+    .first-wrapper .first-wrapper-content {
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .first-wrapper .first-wrapper-content-text h1{
+        font-size: 38px;
+    }
+    .first-wrapper .first-wrapper-content-text p{
+        font-size: 20px;
+    }
+    .first-wrapper .first-wrapper-content-img-1{
+        width: 35%;
+    }
+    .third-wrapper .third-wrapper-content-text{
+        font-size: 38px;
+    }
+    .third-wrapper-relative-wrapper img{
+        width: 15%
+    }
+    .fourth-wrapper .fourth-wrapper-content-text{
+        padding-right: 5%;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-h1{
+        font-size: 38px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-p{
+        font-size: 20px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-img{
+        width: 50%;
+    }
+    .fourth-wrapper .fourth_frame-Google-Pixel-4a{
+        width: 100%;
+    }
+    .fourth-wrapper .locker{
+        width: 235%;
+        left: -95%;
+    }
+    .fifth-wrapper .en-fifth-wrapper-content-text{
+        padding-right: 1%;
+        padding-left: 10%;
+        background-color: bisque;
+    }
+    .fifth-wrapper .fifth-wrapper-h1{
+        font-size: 38px;
+    }
+    .fifth-wrapper .fifth-wrapper-p{
+        font-size: 20px;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+        display: none;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+        display: none;
+    }
+    .fifth-wrapper .en-man_icon{
+        width: 200%;
+        left: -15%;
+        top: 5%;
+        position: absolute;
+    }
+    .fifth-wrapper .man_icon{
+        width: 220%;
+        left: -35%;
+         top: 5%;
+        position: absolute;
+    }
+    .fifth-wrapper .fifth-wrapper-content-text{
+        padding-left: 7%;
+    }
+    .fifth-wrapper .en-fifth-wrapper-content-img{
+        position: relative;
+        display: flex;
+        width: 55%;
+    }
+    .fifth-wrapper .fifth-wrapper-content-img{
+        width: 70%;
+    }
+    .footer .footer-content-text{
+        font-size: 20;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper-header{
+    height: max-content;
+    }
+    .header-nav-logo{
+        font-size: 24px;
+    }
+    .wrapper-header .header-nav-right{
+        width: 50%;
+    }
+    .wrapper-header .header-nav-download{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .wrapper-header .header-content{
+        font-size: 24px;
+        padding-bottom: 20%;
+    }
+    .second-wrapper .second-wrapper-grid{
+        grid-row-gap: 0;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+    .second-wrapper .second-wrapper-content-text{
+        font-size: 24px;
+    }
+    .second-wrapper .second-wrapper-grid h1{
+        font-size: 20px;
+    }
+    .second-wrapper .second-wrapper-grid p{
+        font-size: 10px;
+    }
+    .second-wrapper .card1-img{
+        padding-bottom: 2%;
+        height: 70%;
+    }
+    .second-wrapper .card2{
+    padding-left: 0;
+    }
+    .second-wrapper .card2-img{
+        padding-bottom: 2%;
+        height: 70%;
+    }
+    .second-wrapper .card3-img{
+        padding-bottom: 3%;
+        height: 70%;
+    }
+    .second-wrapper .card4{
+        padding-left: 0;
+    }
+    .second-wrapper .card4-img{
+        padding-bottom: 2%;
+        height: 70%;
+    }
+    .first-wrapper .first-wrapper-content{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .first-wrapper .first-wrapper-content-text h1{
+        font-size: 24px;
+    }
+    .first-wrapper .first-wrapper-content-text p{
+        font-size: 12px;
+    }
+    .first-wrapper .first-wrapper-content-img-1{
+        width: 35%;
+    }
+    .third-wrapper .third-wrapper-content-text{
+        font-size: 24px;
+    }
+    .third-wrapper{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    }
+    .third-wrapper p{
+    margin-bottom: auto;
+    margin-top: auto;
+    }
+    .third-wrapper-relative-wrapper img{
+        width: 15%
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-h1{
+        font-size: 24px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-p{
+        font-size: 12px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-img{
+        width: 38%;
+    }
+    .fourth-wrapper .fourth_frame-Google-Pixel-4a{
+        width: 100%;
+    }
+    .fourth-wrapper .locker{
+        width: 210%;
+        left: -80%;
+    }
+    .fifth-wrapper .fifth-wrapper-h1{
+        font-size: 24px;
+    }
+    .fifth-wrapper .fifth-wrapper-p{
+        font-size: 12px;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+        display: none;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+    }
+    .fifth-wrapper. en-man_icon{
+        width: 200%;
+        left: -15%;
+        top: 5%;
+        position: absolute;
+    }
+    .fifth-wrapper .man_icon{
+        width: 180%;
+        left: -4%;
+        top: 14%;
+        position: absolute;
+    }
+    .fifth-wrapper .en-fifth-wrapper-content-text{
+        padding-right: 1%;
+        padding-left: 10%;
+        background-color: bisque;
+    }
+    .fifth-wrapper .fifth-wrapper-content-text{
+        padding-left: 7%;
+    }
+    .fifth-wrapper .fifth-wrapper-content-img{
+        width: 60%;
+    }
+    .footer .footer-content-text{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper-header{
+    height: max-content;
+    }
+    .header-nav-logo{
+        font-size: 18px;
+    }
+    .wrapper-header .header-nav-right{
+        width: 60%;
+    }
+    .wrapper-header .header-nav-flag-link{
+        width: 10%;
+    }
+    .wrapper-header .header-nav-download{
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+    .wrapper-header .header-content{
+        font-size: 18px;
+        padding-bottom: 20%;
+    }
+    .second-wrapper .second-wrapper-grid{
+        grid-row-gap: 0;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+    .second-wrapper .second-wrapper-content-text{
+        font-size: 14px;
+    }
+    .second-wrapper .second-wrapper-grid h1{
+        font-size: 12px;
+    }
+    .second-wrapper .second-wrapper-grid p{
+        font-size: 7px;
+    }
+    .second-wrapper .card1{
+        height: 50%;
+    }
+    .second-wrapper .card1-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .second-wrapper .card2{
+        padding-left: 0;
+        height: 50%;
+    }
+    .second-wrapper .card2-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .second-wrapper .card3-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .second-wrapper .card3{
+        height: 50%;
+    }
+    .second-wrapper .card4{
+        padding-left: 0;
+        height: 50%;
+    }
+    .second-wrapper .card4-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .first-wrapper .first-wrapper-content{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        justify-content: center;
+    }
+    .first-wrapper .first-wrapper-content-text h1{
+        font-size: 14px;
+    }
+    .first-wrapper .first-wrapper-content-text p{
+        font-size: 7px;
+    }
+    .first-wrapper .first-wrapper-content-img-1{
+        width: 35%;
+    }
+    .third-wrapper .third-wrapper-content-text{
+        font-size: 14px;
+    }
+    .third-wrapper{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    }
+    .third-wrapper p{
+    margin-bottom: auto;
+    margin-top: auto;
+    }
+    .third-wrapper-relative-wrapper img{
+        width: 15%
+    }
+    .fourth-wrapper .fourth-wrapper-content{
+        justify-content: center;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text {
+        padding-right: 11%;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-h1{
+        font-size: 14px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-p{
+        font-size: 7px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-img{
+        width: 33%;
+    }
+    .fourth-wrapper .fourth_frame-Google-Pixel-4a{
+        width: 100%;
+    }
+    .fourth-wrapper .locker{
+        width: 210%;
+        left: -80%;
+    }
+    .fifth-wrapper .fifth-wrapper-content {
+        justify-content: center;
+    }
+    .fifth-wrapper .fifth-wrapper-h1{
+        font-size: 14px;
+    }
+    .fifth-wrapper .fifth-wrapper-p{
+        font-size: 7px;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+        display: none;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+    }
+     .fifth-wrapper.en-man_icon{
+        width: 200%;
+        left: -15%;
+        top: 5%;
+        position: absolute;
+    }
+    .fifth-wrapper .man_icon{
+        width: 180%;
+        left: -5%;
+        top: 13%;
+        position: absolute;
+    }
+    .fifth-wrapper .en-fifth-wrapper-content-text{
+        padding-right: 1%;
+        padding-left: 10%;
+        background-color: bisque;
+    }
+    .fifth-wrapper .fifth-wrapper-content-text{
+        padding-left: 7%;
+    }
+    .fifth-wrapper .en-fifth-wrapper-content-img{
+        width: 33%;
+    }
+    .fifth-wrapper .fifth-wrapper-content-img{
+        width: 46%;
+    }
+    .footer .footer-content-text{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 350px) {
+        .wrapper-header{
+    height: max-content;
+    }
+    .header-nav-logo{
+        font-size: 14px;
+    }
+    .wrapper-header .header-nav-right{
+        width: 50%;
+    }
+    .wrapper-header .header-nav-flag-link{
+        width: 10%;
+    }
+    .wrapper-header .header-nav-download{
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+    .wrapper-header .header-content{
+        font-size: 18px;
+        padding-bottom: 20%;
+    }
+    .second-wrapper .second-wrapper-grid{
+        grid-row-gap: 0;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+    .second-wrapper .second-wrapper-content-text{
+        font-size: 14px;
+    }
+    .second-wrapper .second-wrapper-grid h1{
+        font-size: 12px;
+    }
+    .second-wrapper .second-wrapper-grid p{
+        font-size: 7px;
+    }
+    .second-wrapper .card1{
+        height: 50%;
+    }
+    .second-wrapper .card1-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .second-wrapper .card2{
+        padding-left: 0;
+        height: 50%;
+    }
+    .second-wrapper .card2-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .second-wrapper .card3-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .second-wrapper .card3{
+        height: 50%;
+    }
+    .second-wrapper .card4{
+        padding-left: 0;
+        height: 50%;
+    }
+    .second-wrapper .card4-img{
+        padding-bottom: 5%;
+        height: 80%;
+    }
+    .first-wrapper .first-wrapper-content{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        justify-content: center;
+    }
+    .first-wrapper .first-wrapper-content-text h1{
+        font-size: 14px;
+    }
+    .first-wrapper .first-wrapper-content-text p{
+        font-size: 7px;
+    }
+    .first-wrapper .first-wrapper-content-img-1{
+        width: 35%;
+    }
+    .third-wrapper .third-wrapper-content-text{
+        font-size: 14px;
+    }
+    .third-wrapper{
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .third-wrapper p{
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    .third-wrapper-relative-wrapper img{
+        width: 15%
+    }
+    .fourth-wrapper .fourth-wrapper-content{
+        justify-content: center;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text {
+        padding-right: 11%;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-h1{
+        font-size: 14px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-p{
+        font-size: 7px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-img{
+        width: 33%;
+    }
+    .fourth-wrapper .fourth_frame-Google-Pixel-4a{
+        width: 100%;
+    }
+    .fourth-wrapper .locker{
+        width: 210%;
+        left: -80%;
+    }
+    .fifth-wrapper .fifth-wrapper-content {
+        justify-content: center;
+    }
+    .fifth-wrapper .fifth-wrapper-h1{
+        font-size: 14px;
+    }
+    .fifth-wrapper .fifth-wrapper-p{
+        font-size: 7px;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_1{
+        height: 100%;
+        width: 100%;
+    }
+    .fifth-wrapper .en-SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+        display: none;
+    }
+    .fifth-wrapper .SamsungS_S10_plus_2{
+        height: 70%;
+        width: 70%;
+        padding-left: 0;
+    }
+     .fifth-wrapper.en-man_icon{
+        width: 200%;
+        left: -15%;
+        top: 5%;
+        position: absolute;
+    }
+    .fifth-wrapper .man_icon{
+        width: 180%;
+        left: -5%;
+        top: 13%;
+        position: absolute;
+    }
+    .fifth-wrapper .en-fifth-wrapper-content-text{
+        padding-right: 1%;
+        padding-left: 10%;
+        background-color: bisque;
+    }
+    .fifth-wrapper .fifth-wrapper-content-text{
+        padding-left: 7%;
+    }
+    .fifth-wrapper .en-fifth-wrapper-content-img{
+        width: 33%;
+    }
+    .fifth-wrapper .fifth-wrapper-content-img{
+        width: 46%;
+    }
+    .footer .footer-content-text{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,371 @@
+@font-face {
+    font-family:'Poppins-Bold';
+    src: local('Poppins-Bold'), url(/static/main/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:'Poppins-Medium';
+    src: local('Poppins-Medium'), url(/static/main/fonts/Poppins-Medium.ttf);
+}
+
+body {
+display: block;
+}
+.app{
+height: 100vh;
+overflow: auto;
+width: 100vw;
+}
+.top-link{
+left: 90%;
+position: fixed;
+bottom: 10%;
+z-index: 3;
+}
+.container{
+max-width: 1280px;
+padding: 0 30px;
+margin: 0 auto;
+}
+.wrapper-header{
+background-image: url(/static/main/img/header.png);
+background-position: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+
+
+.header-nav{
+display: flex;
+color: white;
+justify-content: space-between;
+font-size: 54px;
+align-items: center;
+}
+.header-nav-logo{
+margin-top: 15px;
+font-weight: 700;
+}
+.header-nav-download{
+text-decoration: none;
+}
+.header-nav-download {
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+text-align: center;
+font-size: 24px;
+letter-spacing: 1px;
+text-decoration: none;
+color: #725AC1;
+background: transparent;
+cursor: pointer;
+transition: ease-out 0.5s;
+border: 2px solid #725AC1;
+border-radius: 10px;
+box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.header-nav-download:hover {
+color: white;
+box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.header-nav-download:active {
+transform: scale(0.9);
+}
+.header-nav-right{
+align-items: center;
+width: 40%;
+display: flex;
+justify-content: space-between;
+}
+.header-nav-flag-link{
+width: 12%;
+}
+.header-nav-flag{
+width: 100%;
+}
+.hr-header {
+border: none;
+height: 1.5px;
+color: white;
+background-color: white;
+opacity: 75%;
+}
+
+.header-content{
+color: white;
+font-size: 54px;
+align-items: center;
+justify-content: center;
+text-align:center;
+display: flex;
+padding-top: 30%;
+padding-bottom: 30%;
+}
+
+.second-wrapper{
+background-color: white;
+width: 100%;
+position: relative;
+}
+.second-wrapper-grid{
+display: grid;
+grid-row-gap: 20%;
+grid-template-columns: 50% 50%;
+padding-bottom: 12%;
+align-items: center;
+}
+.second-wrapper-grid h1{
+font-size: 34px;
+}
+.second-wrapper-grid p{
+font-size: 20px;
+color: darkslategray;
+}
+.second-wrapper-content-text{
+color: black;
+font-size: 54px;
+text-align: center;
+padding-bottom: 5%;
+padding-top: 5%
+}
+.second-wrapper-content1{
+display: flex;
+height: 10%;
+}
+.card1{
+align-items: center;
+display: flex;
+height: 70%;
+
+}
+.card1-text{
+padding-left: 2%;
+}
+.card2{
+padding-left: 20%;
+align-items: center;
+display: flex;
+height: 70%;
+}
+.card2-text{
+padding-left: 2%;
+}
+.card3{
+align-items: center;
+display: flex;
+height: 60%;
+}
+.card3-text{
+padding-left: 2%;
+}
+.card4{
+padding-left: 20%;
+align-items: center;
+display: flex;
+height: 60%;
+}
+.card4-text{
+padding-left: 2%;
+}
+.first-wrapper{
+background-color: #F0F4FF;
+width: 100%;
+align-items: center;
+display: flex;
+}
+.first-wrapper-content{
+display: flex;
+align-items: center;
+padding-top: 10%;
+padding-bottom: 10%;
+}
+.first-wrapper-content-text{
+background-color: bisque;
+font-size: 500px;
+height: 20%;
+padding-left: 2%;
+padding-right: 2%;
+}
+.first-wrapper-content-text h1{
+color: black;
+font-size: 54px;
+}
+
+.first-wrapper-content-text p{
+color: black;
+font-size: 30px;
+}
+
+.first-wrapper-hr{
+color: black;
+margin-left: 0;
+width: 100%;
+opacity: 75%;
+}
+.first-wrapper-content-img-1{
+width: 50%;
+height: 50%;
+padding-left: 3%
+}
+
+.third-wrapper{
+background-color: white;
+width: 100%;
+}
+
+.third-wrapper-content-text{
+color: black;
+font-size: 50px;
+align-items: center;
+justify-content: center;
+text-align: center;
+display: flex;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+.third-wrapper-relative-wrapper{
+background-color: #F0F4FF;
+width: 100%;
+display: inline-flex;
+justify-content: space-evenly;
+padding-bottom: 3%;
+padding-top: 3%;
+}
+.third-wrapper-relative-wrapper-img{
+display: flex;
+justify-content: space-evenly;
+}
+.Google_Pixel_5{
+padding-top: 1%;
+padding-bottom: 2%;
+}
+.Samsung_Galaxy_Note20_Ultra_5G{
+padding-top: 3%;
+}
+.OnePlus_8_Pro{
+padding-bottom: 2%;
+padding-top: 1%;
+}
+.Samsung_Galaxy_S20_5G{
+padding-top: 3%;
+}
+
+.fourth-wrapper{
+background-color: white;
+width: 100%;
+position: relative;
+}
+
+.fourth-wrapper-content{
+align-items: center;
+display: flex;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.fourth-wrapper-content-text{
+position: relative;
+padding-left: 2%;
+padding-right: 2%;
+background-color: bisque;
+}
+.fourth-wrapper-content-text-h1{
+color: black;
+font-size: 54px;
+}
+.fourth-wrapper-content-text-p{
+color: black;
+font-size: 30px;
+padding-right: 15%;
+}
+.fourth-wrapper-content-img{
+position: relative;
+}
+.locker{
+position: absolute;
+left: -90%;
+}
+
+.fourth-wrapper-hr{
+color: black;
+margin-left: 0;
+width: 100%;
+opacity: 75%;
+}
+
+.fifth-wrapper{
+align-items: center;
+position: relative;
+background-color: #F0F4FF;
+width: 100%;
+position: relative;
+display: flex;
+}
+
+.fifth-wrapper-content{
+display: flex;
+padding-top: 10%;
+padding-bottom: 10%;
+align-items: center;
+position: relative;
+}
+.fifth-wrapper-content-img{
+position: relative;
+display: flex;
+}
+.en-fifth-wrapper-content-img{
+position: relative;
+display: flex;
+}
+.en-fifth-wrapper-content-text{
+padding-right: 1%;
+padding-left: 2%;
+background-color: bisque;
+}
+.fifth-wrapper-content-text{
+padding-right: 1%;
+padding-left: 5%;
+background-color: bisque;
+}
+.fifth-wrapper-h1{
+font-size: 54px;
+}
+.fifth-wrapper-p{
+font-size: 30px;
+}
+.SamsungS_S10_plus_2{
+padding-left: 2%;
+}
+.en-SamsungS_S10_plus_2{
+padding-left: 2%;
+}
+.man_icon{
+left: -15%;
+top: -15%;
+position: absolute;
+}
+.en-man_icon{
+left: -15%;
+top: -15%;
+position: absolute;
+}
+
+.footer{
+background-color: #000;
+display: grid;
+width: 100%;
+}
+.footer-content{
+padding-top: 3%;
+padding-bottom: 3%;
+text-align: center;
+color: #fff;
+}
+
+.footer-content-text{
+font-size: 30px;
+}
