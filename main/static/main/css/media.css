@@ -1,17 +1,15 @@
 @media only screen and (max-width: 993px) {
-    .header-nav-logo{
-        font-size: 38px;
+
+    .wrapper-header .logo{
+         font-size: 60px;
     }
-    .wrapper-header .header-nav-right{
-        width: 50%;
+    .wrapper-header .slogan{
+        font-size: 34px;
     }
-    .wrapper-header .header-nav-download{
-        font-size: 20px;
+    .wrapper-header .download-learnmore{
+        font-size: 26px;
     }
-    .wrapper-header .header-content{
-        font-size: 38px;
-        padding-bottom: 20%;
-    }
+
     .second-wrapper .second-wrapper-content-text{
         font-size: 38px;
     }
@@ -125,6 +123,7 @@
     }
     .fifth-wrapper .fifth-wrapper-content-img{
         width: 70%;
+        padding-right: 0;
     }
     .footer .footer-content-text{
         font-size: 20;
@@ -132,23 +131,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .wrapper-header{
-    height: max-content;
+
+    .wrapper-header .logo{
+         font-size: 50px;
     }
-    .header-nav-logo{
-        font-size: 24px;
+    .wrapper-header .slogan{
+        font-size: 28px;
     }
-    .wrapper-header .header-nav-right{
-        width: 50%;
+    .wrapper-header .download-learnmore{
+        font-size: 22px;
     }
-    .wrapper-header .header-nav-download{
-        font-size: 12px;
-        padding: 10px 15px;
-    }
-    .wrapper-header .header-content{
-        font-size: 24px;
-        padding-bottom: 20%;
-    }
+
     .second-wrapper .second-wrapper-grid{
         grid-row-gap: 0;
         grid-template-columns: auto;
@@ -276,33 +269,31 @@
     }
     .fifth-wrapper .fifth-wrapper-content-img{
         width: 60%;
+        padding-right: 0;
     }
     .footer .footer-content-text{
         font-size: 14px;
     }
+    .footer .change-language{
+        width: 8%;
+    }
+    .footer .change-language-img{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 550px) {
-    .wrapper-header{
-    height: max-content;
+
+    .wrapper-header .logo{
+         font-size: 40px;
     }
-    .header-nav-logo{
-        font-size: 18px;
+     .wrapper-header .slogan{
+         font-size: 20px;
     }
-    .wrapper-header .header-nav-right{
-        width: 60%;
+     .wrapper-header .download-learnmore{
+         font-size: 14px;
     }
-    .wrapper-header .header-nav-flag-link{
-        width: 10%;
-    }
-    .wrapper-header .header-nav-download{
-        font-size: 10px;
-        padding: 8px 15px;
-    }
-    .wrapper-header .header-content{
-        font-size: 18px;
-        padding-bottom: 20%;
-    }
+
     .second-wrapper .second-wrapper-grid{
         grid-row-gap: 0;
         grid-template-columns: auto;
@@ -457,25 +448,14 @@
     }
 }
 @media only screen and (max-width: 350px) {
-        .wrapper-header{
-    height: max-content;
+      .wrapper-header .logo{
+         font-size: 40px;
     }
-    .header-nav-logo{
-        font-size: 14px;
+     .wrapper-header .slogan{
+         font-size: 20px;
     }
-    .wrapper-header .header-nav-right{
-        width: 50%;
-    }
-    .wrapper-header .header-nav-flag-link{
-        width: 10%;
-    }
-    .wrapper-header .header-nav-download{
-        font-size: 10px;
-        padding: 8px 15px;
-    }
-    .wrapper-header .header-content{
-        font-size: 18px;
-        padding-bottom: 20%;
+     .wrapper-header .download-learnmore{
+         font-size: 14px;
     }
     .second-wrapper .second-wrapper-grid{
         grid-row-gap: 0;
