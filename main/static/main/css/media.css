@@ -1,4 +1,7 @@
 @media only screen and (max-width: 993px) {
+    body{
+        overflow-x: hidden;
+    }
 
     .wrapper-header .logo{
          font-size: 60px;
