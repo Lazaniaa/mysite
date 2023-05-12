@@ -40,7 +40,9 @@ right: 2%;
 bottom: 10%;
 z-index: 2;
 }
-
+.link-top-mobile{
+display: none;
+}
 
 .content-wrapper-header{
 
@@ -179,7 +181,6 @@ padding-top: 10%;
 padding-bottom: 10%;
 }
 .first-wrapper-content-text{
-background-color: bisque;
 font-size: 500px;
 height: 20%;
 padding-left: 2%;
@@ -200,6 +201,9 @@ color: black;
 margin-left: 0;
 width: 100%;
 opacity: 75%;
+}
+first-wrapper-img{
+
 }
 .first-wrapper-content-img-1{
 width: 50%;
@@ -266,7 +270,6 @@ padding-bottom: 5%;
 position: relative;
 padding-left: 2%;
 padding-right: 2%;
-background-color: bisque;
 }
 .fourth-wrapper-content-text-h1{
 color: black;
@@ -284,7 +287,9 @@ position: relative;
 position: absolute;
 left: -100%;
 }
-
+.fourth-frame-mobile{
+display: none;
+}
 .fourth-wrapper-hr{
 color: black;
 margin-left: 0;
@@ -292,6 +297,10 @@ width: 100%;
 opacity: 75%;
 }
 
+.fourth-phone{
+display: none;
+width: 50%;
+}
 .fifth-wrapper{
 align-items: center;
 position: relative;
@@ -317,15 +326,19 @@ padding-right: 0.7%;
 position: relative;
 display: flex;
 }
+.mobile-fifth-frame{
+display: none;
+}
+.mobile2-fifth-frame{
+display: none;
+}
 .en-fifth-wrapper-content-text{
 padding-right: 1%;
 padding-left: 2%;
-background-color: bisque;
 }
 .fifth-wrapper-content-text{
 padding-right: 1%;
-padding-left: 5%;
-background-color: bisque;
+padding-left: 2%;
 }
 .fifth-wrapper-h1{
 font-size: 54px;
@@ -371,8 +384,6 @@ justify-content: end;
 }
 .change-language-img{
 text-decoration: none;
-
-
 }
 .footer-content-text{
 font-size: 30px;

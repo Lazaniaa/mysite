@@ -1,4 +1,11 @@
-AOS.init({ duration: 1500, disable: 'mobile' });
+AOS.init({
+  once: true,
+  disable: function() {
+    var maxWidth = 1500;
+    return window.innerWidth < maxWidth;
+  }
+
+});
 
 
 function backToTop()

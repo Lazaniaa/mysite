@@ -146,19 +146,19 @@
     }
 
     .second-wrapper .second-wrapper-grid{
-        grid-row-gap: 0;
+        grid-row-gap: 12%;
         grid-template-columns: auto;
         justify-content: center;
-        padding-bottom: 3%;
+        padding-bottom: 30%;
     }
     .second-wrapper .second-wrapper-content-text{
-        font-size: 24px;
+        font-size: 32px;
     }
     .second-wrapper .second-wrapper-grid h1{
-        font-size: 20px;
+        font-size: 24px;
     }
     .second-wrapper .second-wrapper-grid p{
-        font-size: 10px;
+        font-size: 14px;
     }
     .second-wrapper .card1-img{
         padding-bottom: 2%;
@@ -168,11 +168,11 @@
     padding-left: 0;
     }
     .second-wrapper .card2-img{
-        padding-bottom: 2%;
+        padding-bottom: 4%;
         height: 70%;
     }
     .second-wrapper .card3-img{
-        padding-bottom: 3%;
+        padding-bottom: 0%;
         height: 70%;
     }
     .second-wrapper .card4{
@@ -183,53 +183,88 @@
         height: 70%;
     }
     .first-wrapper .first-wrapper-content{
-        padding-top: 5%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: block;
+    }
+    .first-wrapper .first-wrapper-content-text{
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
         padding-bottom: 5%;
     }
     .first-wrapper .first-wrapper-content-text h1{
-        font-size: 24px;
+        font-size: 32px;
     }
     .first-wrapper .first-wrapper-content-text p{
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .first-wrapper .first-wrapper-img{
+        justify-content: center;
+        display: flex;
     }
     .first-wrapper .first-wrapper-content-img-1{
-        width: 35%;
+        width: 40%;
     }
     .third-wrapper .third-wrapper-content-text{
-        font-size: 24px;
+        font-size: 29px;
     }
     .third-wrapper{
-    margin-bottom: 2%;
-    margin-top: 2%;
+        margin-bottom: 2%;
+        margin-top: 2%;
     }
     .third-wrapper p{
-    margin-bottom: auto;
-    margin-top: auto;
+        margin-bottom: auto;
+        margin-top: auto;
     }
     .third-wrapper-relative-wrapper img{
-        width: 15%
+        width: 18%
+    }
+    .third-wrapper-relative-wrapper{
+        padding-bottom: 5%;
+        padding-top: 5%;
     }
     .fourth-wrapper .fourth-wrapper-content-text-h1{
-        font-size: 24px;
+        font-size: 32px;
     }
     .fourth-wrapper .fourth-wrapper-content-text-p{
-        font-size: 12px;
+        font-size: 14px;
+        padding-right: 0%;
     }
     .fourth-wrapper .fourth-wrapper-content-img{
-        width: 38%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .fourth-wrapper .fourth-wrapper-content{
+        display: block;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text{
+        padding-bottom: 10%;
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     .fourth-wrapper .fourth_frame-Google-Pixel-4a{
         width: 100%;
+        display: none;
     }
     .fourth-wrapper .locker{
         width: 210%;
         left: -80%;
+        display: none;
+    }
+    .fourth-wrapper .fourth-frame-mobile{
+        display: block;
+        width: 45%;
     }
     .fifth-wrapper .fifth-wrapper-h1{
-        font-size: 24px;
+        font-size: 32px;
     }
     .fifth-wrapper .fifth-wrapper-p{
-        font-size: 12px;
+        font-size: 14px;
     }
     .fifth-wrapper .en-SamsungS_S10_plus_1{
         height: 100%;
@@ -238,6 +273,7 @@
     .fifth-wrapper .SamsungS_S10_plus_1{
         height: 100%;
         width: 100%;
+        display: none;
     }
     .fifth-wrapper .en-SamsungS_S10_plus_2{
         height: 70%;
@@ -262,17 +298,36 @@
         top: 14%;
         position: absolute;
     }
+    .fifth-wrapper .mobile-fifth-frame{
+        display: block;
+        width: 45%;
+    }
+    .fifth-wrapper .mobile2-fifth-frame{
+        display: block;
+        width: 45%;
+    }
+
     .fifth-wrapper .en-fifth-wrapper-content-text{
         padding-right: 1%;
         padding-left: 10%;
         background-color: bisque;
     }
+    .fifth-wrapper .fifth-wrapper-content{
+    display: block;
+    }
     .fifth-wrapper .fifth-wrapper-content-text{
-        padding-left: 7%;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+        padding-bottom: 10%;
     }
     .fifth-wrapper .fifth-wrapper-content-img{
         width: 60%;
         padding-right: 0;
+    }
+    .fifth-wrapper .fifth-wrapper-content-img-mobile{
+        justify-content: space-around;
+        display: flex;
     }
     .footer .footer-content-text{
         font-size: 14px;
@@ -283,333 +338,71 @@
     .footer .change-language-img{
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width: 550px) {
-
     .wrapper-header .logo{
-         font-size: 40px;
+        font-size: 40px;
     }
-     .wrapper-header .slogan{
-         font-size: 20px;
+    .wrapper-header .slogan {
+        font-size: 24px;
     }
-     .wrapper-header .download-learnmore{
-         font-size: 14px;
+    .wrapper-header .download-learnmore {
+        font-size: 18px;
     }
-
+    .second-wrapper .second-wrapper-content-text {
+        font-size: 32px;
+        padding-bottom: 5%;
+        padding-top: 15%;
+    }
     .second-wrapper .second-wrapper-grid{
-        grid-row-gap: 0;
-        grid-template-columns: auto;
-        justify-content: center;
-        padding-bottom: 3%;
+        padding-bottom: 50%;
     }
-    .second-wrapper .second-wrapper-content-text{
+    .first-wrapper .first-wrapper-content-text h1 {
+        font-size: 32px;
+    }
+    .first-wrapper .first-wrapper-content-text p {
         font-size: 14px;
     }
-    .second-wrapper .second-wrapper-grid h1{
-        font-size: 12px;
+    .first-wrapper .first-wrapper-content-img-1 {
+        width: 60%;
     }
-    .second-wrapper .second-wrapper-grid p{
-        font-size: 7px;
-    }
-    .second-wrapper .card1{
-        height: 50%;
-    }
-    .second-wrapper .card1-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .second-wrapper .card2{
-        padding-left: 0;
-        height: 50%;
-    }
-    .second-wrapper .card2-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .second-wrapper .card3-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .second-wrapper .card3{
-        height: 50%;
-    }
-    .second-wrapper .card4{
-        padding-left: 0;
-        height: 50%;
-    }
-    .second-wrapper .card4-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .first-wrapper .first-wrapper-content{
-        padding-top: 5%;
-        padding-bottom: 5%;
-        justify-content: center;
-    }
-    .first-wrapper .first-wrapper-content-text h1{
-        font-size: 14px;
-    }
-    .first-wrapper .first-wrapper-content-text p{
-        font-size: 7px;
-    }
-    .first-wrapper .first-wrapper-content-img-1{
-        width: 35%;
-    }
-    .third-wrapper .third-wrapper-content-text{
-        font-size: 14px;
-    }
-    .third-wrapper{
-    margin-bottom: 2%;
-    margin-top: 2%;
-    }
-    .third-wrapper p{
-    margin-bottom: auto;
-    margin-top: auto;
-    }
-    .third-wrapper-relative-wrapper img{
-        width: 15%
-    }
-    .fourth-wrapper .fourth-wrapper-content{
-        justify-content: center;
-    }
-    .fourth-wrapper .fourth-wrapper-content-text {
-        padding-right: 11%;
+    .third-wrapper-relative-wrapper {
+        padding-bottom: 15%;
+        padding-top: 15%;
     }
     .fourth-wrapper .fourth-wrapper-content-text-h1{
+        font-size: 32px;
+    }
+    .fourth-wrapper .fourth-wrapper-content-text-p {
         font-size: 14px;
+        padding-right: 0%;
     }
-    .fourth-wrapper .fourth-wrapper-content-text-p{
-        font-size: 7px;
+    .wrapper-header .link-topp{
+        display: block;
     }
-    .fourth-wrapper .fourth-wrapper-content-img{
-        width: 33%;
+    .wrapper-header .link-top-mobile{
+        display: block
     }
-    .fourth-wrapper .fourth_frame-Google-Pixel-4a{
-        width: 100%;
-    }
-    .fourth-wrapper .locker{
-        width: 210%;
-        left: -80%;
-    }
-    .fifth-wrapper .fifth-wrapper-content {
-        justify-content: center;
-    }
-    .fifth-wrapper .fifth-wrapper-h1{
-        font-size: 14px;
-    }
-    .fifth-wrapper .fifth-wrapper-p{
-        font-size: 7px;
-    }
-    .fifth-wrapper .en-SamsungS_S10_plus_1{
-        height: 100%;
-        width: 100%;
-    }
-    .fifth-wrapper .SamsungS_S10_plus_1{
-        height: 100%;
-        width: 100%;
-    }
-    .fifth-wrapper .en-SamsungS_S10_plus_2{
-        height: 70%;
-        width: 70%;
-        padding-left: 0;
+    .wrapper-header .link-top-pc{
         display: none;
-    }
-    .fifth-wrapper .SamsungS_S10_plus_2{
-        height: 70%;
-        width: 70%;
-        padding-left: 0;
-    }
-     .fifth-wrapper.en-man_icon{
-        width: 200%;
-        left: -15%;
-        top: 5%;
-        position: absolute;
-    }
-    .fifth-wrapper .man_icon{
-        width: 180%;
-        left: -5%;
-        top: 13%;
-        position: absolute;
-    }
-    .fifth-wrapper .en-fifth-wrapper-content-text{
-        padding-right: 1%;
-        padding-left: 10%;
-        background-color: bisque;
-    }
-    .fifth-wrapper .fifth-wrapper-content-text{
-        padding-left: 7%;
-    }
-    .fifth-wrapper .en-fifth-wrapper-content-img{
-        width: 33%;
-    }
-    .fifth-wrapper .fifth-wrapper-content-img{
-        width: 46%;
-    }
-    .footer .footer-content-text{
-        font-size: 10px;
     }
 }
 @media only screen and (max-width: 350px) {
-      .wrapper-header .logo{
-         font-size: 40px;
+    .second-wrapper .second-wrapper-grid {
+        padding-bottom: 60%;
     }
-     .wrapper-header .slogan{
-         font-size: 20px;
+    .wrapper-header .logo {
+        font-size: 40px;
     }
-     .wrapper-header .download-learnmore{
-         font-size: 14px;
+    .wrapper-header .slogan {
+        font-size: 18px;
     }
-    .second-wrapper .second-wrapper-grid{
-        grid-row-gap: 0;
-        grid-template-columns: auto;
-        justify-content: center;
-        padding-bottom: 3%;
+    .wrapper-header .slogan {
+        font-size: 18px;
     }
-    .second-wrapper .second-wrapper-content-text{
-        font-size: 14px;
-    }
-    .second-wrapper .second-wrapper-grid h1{
-        font-size: 12px;
-    }
-    .second-wrapper .second-wrapper-grid p{
-        font-size: 7px;
-    }
-    .second-wrapper .card1{
-        height: 50%;
-    }
-    .second-wrapper .card1-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .second-wrapper .card2{
-        padding-left: 0;
-        height: 50%;
-    }
-    .second-wrapper .card2-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .second-wrapper .card3-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .second-wrapper .card3{
-        height: 50%;
-    }
-    .second-wrapper .card4{
-        padding-left: 0;
-        height: 50%;
-    }
-    .second-wrapper .card4-img{
-        padding-bottom: 5%;
-        height: 80%;
-    }
-    .first-wrapper .first-wrapper-content{
-        padding-top: 5%;
-        padding-bottom: 5%;
-        justify-content: center;
-    }
-    .first-wrapper .first-wrapper-content-text h1{
-        font-size: 14px;
-    }
-    .first-wrapper .first-wrapper-content-text p{
-        font-size: 7px;
-    }
-    .first-wrapper .first-wrapper-content-img-1{
-        width: 35%;
-    }
-    .third-wrapper .third-wrapper-content-text{
-        font-size: 14px;
-    }
-    .third-wrapper{
-        margin-bottom: 2%;
-        margin-top: 2%;
-    }
-    .third-wrapper p{
-        margin-bottom: auto;
-        margin-top: auto;
-    }
-    .third-wrapper-relative-wrapper img{
-        width: 15%
-    }
-    .fourth-wrapper .fourth-wrapper-content{
-        justify-content: center;
-    }
-    .fourth-wrapper .fourth-wrapper-content-text {
-        padding-right: 11%;
-    }
-    .fourth-wrapper .fourth-wrapper-content-text-h1{
-        font-size: 14px;
-    }
-    .fourth-wrapper .fourth-wrapper-content-text-p{
-        font-size: 7px;
-    }
-    .fourth-wrapper .fourth-wrapper-content-img{
-        width: 33%;
-    }
-    .fourth-wrapper .fourth_frame-Google-Pixel-4a{
-        width: 100%;
-    }
-    .fourth-wrapper .locker{
-        width: 210%;
-        left: -80%;
-    }
-    .fifth-wrapper .fifth-wrapper-content {
-        justify-content: center;
-    }
-    .fifth-wrapper .fifth-wrapper-h1{
-        font-size: 14px;
-    }
-    .fifth-wrapper .fifth-wrapper-p{
-        font-size: 7px;
-    }
-    .fifth-wrapper .en-SamsungS_S10_plus_1{
-        height: 100%;
-        width: 100%;
-    }
-    .fifth-wrapper .SamsungS_S10_plus_1{
-        height: 100%;
-        width: 100%;
-    }
-    .fifth-wrapper .en-SamsungS_S10_plus_2{
-        height: 70%;
-        width: 70%;
-        padding-left: 0;
-        display: none;
-    }
-    .fifth-wrapper .SamsungS_S10_plus_2{
-        height: 70%;
-        width: 70%;
-        padding-left: 0;
-    }
-     .fifth-wrapper.en-man_icon{
-        width: 200%;
-        left: -15%;
-        top: 5%;
-        position: absolute;
-    }
-    .fifth-wrapper .man_icon{
-        width: 180%;
-        left: -5%;
-        top: 13%;
-        position: absolute;
-    }
-    .fifth-wrapper .en-fifth-wrapper-content-text{
-        padding-right: 1%;
-        padding-left: 10%;
-        background-color: bisque;
-    }
-    .fifth-wrapper .fifth-wrapper-content-text{
-        padding-left: 7%;
-    }
-    .fifth-wrapper .en-fifth-wrapper-content-img{
-        width: 33%;
-    }
-    .fifth-wrapper .fifth-wrapper-content-img{
-        width: 46%;
-    }
-    .footer .footer-content-text{
-        font-size: 10px;
+    .footer .footer-content-text {
+        font-size: 8px;
     }
 }
