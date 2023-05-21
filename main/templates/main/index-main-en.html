@@ -1,5 +1,5 @@
 {% load static %}
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,31 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HellNotes.com</title>
     <link rel="icon" href="/static/main/img/note.png" type="image/x-icon">
-    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css>
     <link rel="stylesheet" href="{%static 'main/css/style.css' %}">
     <link rel="stylesheet" href="{%static 'main/css/media.css' %}">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" >
 </head>
 <body>
-
 <div class="app">
     <div id="back-to-top" class="wrapper-header">
         <a class="link-top" href="#back-to-top">
-            <img src="/static/main/img/top.png" alt="">
+            <img class="link-top-pc" src="/static/main/img/top.png" alt="">
+            <img class="link-top-mobile" src="/static/main/img/top-mobile.png" alt="">
         </a>
         <div class="container">
             <div class="content-wrapper-header">
-                <div data-aos="fade-down" class="logo">
+                <div data-aos-duration="1500" data-aos="fade-down" class="logo" >
                     <p>HellNotes</p>
                 </div>
-                <div data-aos="flip-up" class="slogan">
+                <div data-aos-duration="1500" data-aos="flip-up" class="slogan">
                     <p>Start writing down your thoughts  <br>Right now!</p>
                 </div>
-                <div data-aos="fade-up" class="download-learnmore">
-                    <div class="learn-more">
+                <div  class="download-learnmore">
+                    <div data-aos-duration="1500" data-aos="fade-up" class="learn-more">
                         <a class="learn-more-link" href="#learn-more">Learn more</a>
                     </div>
-                    <div class="header-download">
+                    <div data-aos-duration="1500" data-aos="fade-up" class="header-download">
                         <a  class="header-download-link" href="https://github.com/HellGuy39/HellNotes/releases">Download app</a>
                     </div>
                 </div>
@@ -40,32 +40,32 @@
     </div>
     <div class="second-wrapper">
         <div class="container">
-            <div data-aos="zoom-in"  id="learn-more" class="second-wrapper-content-text">
+            <div data-aos-duration="1500" data-aos="zoom-in" id="learn-more" class="second-wrapper-content-text">
                 <p>Our advantages</p>
             </div>
             <div class="second-wrapper-grid">
-                <div  data-aos="fade-right" class="card1">
+                <div  data-aos-duration="1500" data-aos="fade-right" class="card1">
                     <img class="card1-img" src="/static/main/img/paperclip.png" alt="">
                     <div class="card1-text">
                         <h1>Reminders</h1>
                         <p>Convenient reminder settings</p>
                     </div>
                 </div>
-                <div data-aos="fade-left" class="card2">
+                <div data-aos-duration="1500" data-aos="fade-left" class="card2">
                     <img class="card2-img" src="/static/main/img/search.png" alt="">
                     <div class="card2-text">
                         <h1>Search</h1>
                         <p>It's easy to find a note suitable for you</p>
                     </div>
                 </div>
-                <div  data-aos="fade-right" class="card3">
+                <div data-aos-duration="1500" data-aos="fade-right" class="card3">
                     <img class="card3-img" src="/static/main/img/settings.png" alt="">
                      <div class="card3-text">
                         <h1>Language Settings</h1>
                         <p>Choose a convenient language for you</p>
                     </div>
                 </div>
-                <div data-aos="fade-left" class="card4">
+                <div data-aos-duration="1500" data-aos="fade-left" class="card4">
                     <img class="card4-img" src="/static/main/img/key.png" alt="">
                      <div class="card4-text">
                         <h1>Safety</h1>
@@ -73,25 +73,26 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <div class="first-wrapper">
         <div class="container">
-            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="first-wrapper-content">
-                <div class="first-wrapper-content-text">
+            <div class="first-wrapper-content">
+                <div data-aos-duration="1500" data-aos="fade-up"
+                     data-aos-anchor-placement="center-bottom" class="first-wrapper-content-text">
                     <h1>Fast as possible</h1>
                     <p>Just 2 clicks separate you from a new note.<br />  Your notes were never simple and usable before</p>
-                    <hr class="first-wrapper-hr">
                 </div>
-                <img  class="first-wrapper-content-img-1"  src="/static/main/img/notes.png" alt="">
+                <div class="first-wrapper-img">
+                    <img data-aos-duration="1500" data-aos="fade-up" data-aos-anchor-placement="center-bottom"  class="first-wrapper-content-img-1"  src="/static/main/img/notes.png" alt="">
+                </div>
             </div>
         </div>
     </div>
     <div class="third-wrapper">
         <div class="container">
             <div class="third-wrapper-content">
-                <div data-aos="zoom-in" class="third-wrapper-content-text">
+                <div data-aos-duration="1500" data-aos="zoom-in" class="third-wrapper-content-text">
                     <p>Available on all Android devices</p>
                 </div>
             </div>
@@ -100,40 +101,45 @@
     <div class="third-wrapper-relative-wrapper">
         <div class="container">
             <div class="third-wrapper-relative-wrapper-img">
-                <img data-aos="fade-up" class="Google_Pixel_5" src="/static/main/img/Google_Pixel_5.png" alt="">
-                <img data-aos="fade-down" class="Samsung_Galaxy_Note20_Ultra_5G" src="/static/main/img/Samsung_Galaxy_Note20_Ultra_5G.png" alt="">
-                <img data-aos="fade-up" class="OnePlus_8_Pro" src="/static/main/img/OnePlus_8_Pro.png" alt="">
-                <img data-aos="fade-down" class="Samsung_Galaxy_S20_5G" src="/static/main/img/Samsung_Galaxy_S20_5G.png" alt="">
+                <img data-aos-duration="1500" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="Google_Pixel_5" src="/static/main/img/Google_Pixel_5.png" alt="">
+                <img data-aos-duration="1500" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" class="Samsung_Galaxy_Note20_Ultra_5G" src="/static/main/img/Samsung_Galaxy_Note20_Ultra_5G.png" alt="">
+                <img data-aos-duration="1500" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="OnePlus_8_Pro" src="/static/main/img/OnePlus_8_Pro.png" alt="">
+                <img data-aos-duration="1500" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" class="Samsung_Galaxy_S20_5G" src="/static/main/img/Samsung_Galaxy_S20_5G.png" alt="">
             </div>
         </div>
     </div>
     <div class="fourth-wrapper">
         <div class="container">
-            <div data-aos="fade-right" data-aos-anchor-placement="top-center" class="fourth-wrapper-content">
+            <div data-aos-duration="1500" data-aos="fade-right" data-aos-anchor-placement="top-center" class="fourth-wrapper-content">
                 <div class="fourth-wrapper-content-text">
                     <h1 class="fourth-wrapper-content-text-h1">Be safe</h1>
                     <p class="fourth-wrapper-content-text-p">Privacy with no data collection and internet permission. <br /> Supported with biometric verification and standard password validation</p>
-                    <hr class="fourth-wrapper-hr">
                 </div>
-                <div class="fourth-wrapper-content-img">
+                <div  class="fourth-wrapper-content-img">
                     <img class="fourth_frame-Google-Pixel-4a" src="/static/main/img/Google-Pixel-4a-fourth-frame.png" alt="">
                     <img class="locker" src="/static/main/img/locker.png" alt="">
+                    <img class="fourth-phone" src="/static/main/img/fourth-phone.png" alt="">
+                    <img class="fourth-frame-mobile" src="/static/main/img/fourth-frame-mobile.png" alt="">
                 </div>
             </div>
         </div>
     </div>
     <div class="fifth-wrapper">
         <div class="container">
-            <div data-aos="fade-left" data-aos-anchor-placement="top-center" class="fifth-wrapper-content">
+            <div data-aos-duration="1500" data-aos="fade-left" data-aos-anchor-placement="top-center" class="fifth-wrapper-content">
                 <div class="fifth-wrapper-content-img">
                     <img class="SamsungS_S10_plus_1" src="/static/main/img/SamsungS_S10_plus_1.png" alt="">
                     <img class="SamsungS_S10_plus_2" src="/static/main/img/SamsungS_S10_plus_2.png" alt="">
                     <img class="man_icon" src="/static/main/img/man_icon.png" alt="">
+
                 </div>
                 <div class="fifth-wrapper-content-text">
                     <h1 class="fifth-wrapper-h1">Powerful design</h1>
-                    <p class="fifth-wrapper-p">Inspired by modern best practices of UX/UI concepts of Google Material 3.<br /> Followed with shortcuts, gestures and much more </p>
-                    <hr class="first-wrapper-hr">
+                    <p class="fifth-wrapper-p">Inspired by modern best practices of UX/UI concepts of Google Material 3.<br /> Followed with shortcuts, gestures and much more</p>
+                </div>
+                <div class="fifth-wrapper-content-img-mobile">
+                    <img class="mobile-fifth-frame" src="/static/main/img/mobile-fifth-frame.png" alt="">
+                    <img class="mobile2-fifth-frame" src="/static/main/img/mobile2-fifth-frame.png" alt="">
                 </div>
             </div>
         </div>
@@ -141,7 +147,7 @@
     <div class="footer">
         <div class="footer-content">
             <div class="container">
-                <div data-aos-duration="1000" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0" data-aos-anchor-placement="bottom-bottom" class="footer-content-text">
+                <div data-aos-duration="800" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="350" data-aos-offset="0" data-aos-anchor-placement="bottom-bottom" class="footer-content-text">
                     <p>Сreated by Valerii Kalashnikov <br>2023</p>
                     <a href="http://127.0.0.1:8000/" class="change-language">
                         <img class="change-language-img" src="/static/main/img/russia.png" alt="">

@@ -46,7 +46,7 @@
         font-size: 20px;
     }
     .first-wrapper .first-wrapper-content-img-1{
-        width: 35%;
+        width: 70%;
     }
     .third-wrapper .third-wrapper-content-text{
         font-size: 38px;
@@ -70,8 +70,9 @@
         width: 100%;
     }
     .fourth-wrapper .locker{
-        width: 235%;
-        left: -95%;
+        width: 90%;
+        left: -40%;
+        top: 40%;
     }
     .fifth-wrapper .en-fifth-wrapper-content-text{
         padding-right: 1%;
@@ -105,15 +106,15 @@
         display: none;
     }
     .fifth-wrapper .en-man_icon{
-        width: 200%;
-        left: -15%;
-        top: 5%;
+        width: 60%;
+        left: 55%;
+        top: 50%;
         position: absolute;
     }
     .fifth-wrapper .man_icon{
-        width: 220%;
-        left: -35%;
-         top: 5%;
+        width: 60%;
+        left: 55%;
+        top: 50%;
         position: absolute;
     }
     .fifth-wrapper .fifth-wrapper-content-text{
@@ -297,6 +298,7 @@
         left: -4%;
         top: 14%;
         position: absolute;
+        display: none;
     }
     .fifth-wrapper .mobile-fifth-frame{
         display: block;
